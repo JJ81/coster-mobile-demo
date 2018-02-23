@@ -1,0 +1,22 @@
+{
+  "name": "coster-mobile-demo",
+  "version": "1.0.0",
+  "description": "mobile demo for IR",
+  "main": "",
+  "scripts": {
+    "server" : "http-server ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://JJ81@github.com/JJ81/coster-mobile-demo.git"
+  },
+  "author": "j.lee@jcorporationtech.com",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/JJ81/coster-mobile-demo/issues"
+  },
+  "homepage": "https://github.com/JJ81/coster-mobile-demo#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
