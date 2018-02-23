@@ -1,0 +1,20 @@
+{
+  "name": "coster-mobile-demo",
+  "description": "mobile demo for IR",
+  "main": "",
+  "authors": [
+    "j.lee@jcorporationtech.com"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/JJ81/coster-mobile-demo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fontawesome": "^5.0.6"
+  }
+}

@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+$key-color: #ef4418;
+$text-color: #7f7f7f;
+$text-color2 : #5a5959;
+$line-color: #ddd;
+$line-color2: #f0f0f0;
+
+.txt-red{
+  color: $key-color;
+}
+
+body{
+  font-family: '맑은 고딕','Nanum Gothic', 'AppleGothic', '돋움', 'Dotum', sans-serif;
+}
+header{
+  position: relative;
+  background: #fff;
+  border-bottom: 1px solid #e8e9e8;
+  height: 50px;
+  text-align: center;
+  .logo{
+    display: inline-block;
+    padding-top: 5px;
+  }
+
+  .btn_menu,
+  .btn_shop,
+  .btn_search{
+    position: absolute;
+    display: inline-block;
+    color: $text-color;
+    height: 50px;
+    width: 50px;
+    line-height: 52px;
+    font-size: 22px;
+    font-weight: 100;
+    //border: 1px solid #f00;
+  }
+
+  .btn_menu{
+    top: 0;
+    left: 0;
+    line-height: 55px;
+  }
+
+  .btn_shop{
+    top: 0;
+    right: 41px;
+    width: 30px;
+    font-size: 20px;
+  }
+
+  .btn_search{
+    top: 0;
+    right: 10px;
+    width: 30px;
+    font-size: 20px;
+  }
+}
+
+footer{
+  background: #2b2f38;
+  height: 50px;
+  text-align: center;
+  color: #989999;
+  line-height: 50px;
+  font-size: 12px;
+}
+
+#content{
+  padding: 10px;
+  background: #fcfcfc;
+  //padding-bottom: 10px;
+  //padding-top: 10px;
+  //background: #fff;
+}
+
+nav{
+  ul:after{
+    display: block;
+    content: "";
+    clear: both;
+  }
+  height: 35px;
+  border-bottom: 1px solid #e8e9e8;
+  .nav_list{
+    float: left;
+    width: 20%;
+    text-align: center;
+  }
+  .nav_link{
+    text-align: center;
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    text-decoration: none;
+    color: $text-color2;
+    font-size: 15px;
+  }
+  .active{
+    border-bottom: 2px solid $key-color;
+    font-weight: bold;
+  }
+}
