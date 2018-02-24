@@ -26,22 +26,27 @@ header{
 
   .btn_menu,
   .btn_shop,
-  .btn_search{
+  .btn_search,
+  .btn_back{
     position: absolute;
     display: inline-block;
     color: $text-color;
     height: 50px;
     width: 50px;
-    line-height: 52px;
+    line-height: 53px;
     font-size: 22px;
     font-weight: 100;
-    //border: 1px solid #f00;
   }
 
-  .btn_menu{
+  .btn_menu,
+  .btn_back{
     top: 0;
     left: 0;
     line-height: 55px;
+  }
+
+  .btn_back{
+    font-size: 30px;
   }
 
   .btn_shop{
@@ -65,15 +70,12 @@ footer{
   text-align: center;
   color: #989999;
   line-height: 50px;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 #content{
   padding: 10px;
   background: #fcfcfc;
-  //padding-bottom: 10px;
-  //padding-top: 10px;
-  //background: #fff;
 }
 
 nav{
@@ -89,6 +91,11 @@ nav{
     width: 20%;
     text-align: center;
   }
+  .nav_list_sub{
+    float: left;
+    width: 25%;
+    text-align: center;
+  }
   .nav_link{
     text-align: center;
     display: block;
@@ -101,5 +108,11 @@ nav{
   .active{
     border-bottom: 2px solid $key-color;
     font-weight: bold;
+  }
+  .sup{
+    font-size: 10px;
+    position: relative;
+    top: -2px;
+    left: -2px;
   }
 }

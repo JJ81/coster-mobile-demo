@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+.sub{
+  margin: 0 auto;
+  max-width: 640px;
+  .btnArea{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #eee;
+    padding: 5px 0;
+
+
+    .btn_inner{
+      padding: 0 5px;
+    }
+
+    .btn_cart,.btn_buy{
+      display: block;
+      float: left;
+      width: 50%;
+      text-align: center;
+      height: 50px;
+      line-height: 50px;
+      font-weight: bold;
+    }
+    .btn_cart{
+      background: #fff;
+      color: $text-color;
+    }
+    .btn_buy{
+      background: $key-color;
+      color: #fff;
+    }
+  }
+
+  .img_sub_top{
+    width: 100%;
+  }
+
+  .item_info{
+    position: relative;
+    display: block;
+
+    .title{
+      display: block;
+      margin: 10px 0;
+    }
+    .percent{
+      font-size: 26px;
+      color: $key-color;
+    }
+    .price{
+      color: #333;
+    }
+    .origin_price{
+      font-size: 12px;
+      text-decoration: line-through;
+      color: $text-color;
+    }
+
+    .fa-heart{
+      position: absolute;
+      right: 5px;
+      top: 32px;
+      color: #999;
+      font-size: 20px;
+    }
+
+    .fa-heart-active{
+      color: $key-color;
+    }
+
+    .fa-share-alt{
+      font-size: 20px;
+      position: absolute;
+      right: 40px;
+      top: 32px;
+      color: #cdcdcd;
+    }
+  }
+
+  .sub_info{
+    border-top: 1px solid #eee;
+    margin-top: 10px;
+    li{
+      position: relative;
+      font-size: 13px;
+      height: 35px;
+      line-height: 35px;
+      color: #666;
+      border-bottom: 1px solid #eee;
+    }
+    .fa-angle-down{
+      position: absolute;
+      top: 10px;
+      right: 5px;
+      color: #bbb;
+    }
+  }
+
+  .item_images{
+    margin-top: 20px;
+    img{
+      width: 100%;
+    }
+  }
+}
+
+.top{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #eee;
+  display: block;
+  background: #fff;
+  position: fixed;
+  bottom: 70px;
+  right: 5px;
+  text-align: center;
+  line-height: 30px;
+  color: #a5a5a5;
+  font-size: 14px;
+}
+
+.back{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #eee;
+  display: block;
+  background: #fff;
+  position: fixed;
+  bottom: 70px;
+  left: 5px;
+  text-align: center;
+  line-height: 30px;
+  color: #a5a5a5;
+  font-size: 14px;
+}
