@@ -4,7 +4,7 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=1.0" />
 	<title>Coster Mall Demo.</title>
-	<link rel="stylesheet" href="./assets/stylesheet/styles.min.css?v=abcdefghijk" />
+	<link rel="stylesheet" href="./assets/stylesheet/styles.min.css?v=a1234" />
 	<link rel="stylesheet" href="./bower_components/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css" />
 </head>
 <body>
@@ -106,11 +106,20 @@
 
 	<div style="padding: 10px;margin-bottom: 10px;">
 		<!-- 간편결제 -->
+		<span class="holder_checked">
+			<img src="./assets/images/ico_checked.gif" alt="" width="25" class="ico_checked" /> XX 간편결제
+			<span class="txt-red">XX캐시 139원 적립</span>
+		</span>
+		<img src="./assets/images/img_add_payment.gif" alt="" width="100%" />
+
 
 		<!-- 결제방식선택 -->
-		
+		<span class="holder_checked">
+			<img src="./assets/images/ico_unchecked.gif" alt="" width="25" class="ico_checked" /> 다른 결제 수단
+		</span>
+		<img src="./assets/images/img_checked_others.png" alt="" width="100%" />
 		<img src="./assets/images/img_agreement.jpg" alt="" width="100%" />
-		<a href="javascript:alert('결제되었습니다.');" class="btn_pay_now">결제하기</a>
+		<a href="javascript:alert('결제되었습니다.');window.location.href='./index.html';" class="btn_pay_now">결제하기</a>
 	</div>
 
 	<nav>
