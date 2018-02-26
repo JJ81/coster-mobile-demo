@@ -171,5 +171,7 @@
 	<hr />
 
 	<footer>COPYRIGHT ⓒ 2016 COSTER Corp. ALL RIGHTS RESERVED.</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./assets/javascript/script.js?v=1"></script>
 </body>
 </html>
